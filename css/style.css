@@ -2,10 +2,20 @@
     position: relative;
 }
 
+body {
+    padding-top: 40px; /* Espaço para a navbar fixa */
+}
+
+
 .image-container img {
     width: 100%;
     height: 350px; /* Ajuste o valor conforme necessário para o tamanho desejado */
     object-fit: cover;
+}
+
+.logo-navbar {
+    width: 80px; /* Largura fixa da logo */
+    height: auto; /* Mantém a proporção */
 }
 
 .blur-image {

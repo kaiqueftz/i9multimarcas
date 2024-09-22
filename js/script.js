@@ -69,3 +69,16 @@ document.getElementById('btn-fechar').addEventListener('click', function() {
     document.getElementById('btn-verMais').classList.remove('d-none');
     this.classList.add('d-none');
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            if (navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
+            }
+        });
+    });
+});

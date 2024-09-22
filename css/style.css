@@ -1,0 +1,27 @@
+.image-container {
+    position: relative;
+}
+
+
+.blur-image {
+    filter: blur(1.5px);
+    transition: filter 0.3s ease;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.vehicle-image-container {
+    position: relative;
+    text-align: center;
+}
+

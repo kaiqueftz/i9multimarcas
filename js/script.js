@@ -25,16 +25,22 @@ document.getElementById('filtro-form').addEventListener('submit', function(event
     const marca = document.getElementById('marca').value;
     const ano = document.getElementById('ano').value;
     const cor = document.getElementById('cor').value;
+    const modelo = document.getElementById('modelo').value;
     const veiculos = document.querySelectorAll('.veiculo');
+    const precoMaximo = parseFloat(document.getElementById('preco').value.replace('.', '').replace(',', '.'));
 
     veiculos.forEach(veiculo => {
         const veiculoMarca = veiculo.getAttribute('data-marca');
         const veiculoAno = veiculo.getAttribute('data-ano');
         const veiculoCor = veiculo.getAttribute('data-cor');
+        const veiculoModelo = veiculo.getAttribute('data-modelo');
+        const veiculoPreco = parseFloat(veiculo.getAttribute('data-preco').replace('.', '').replace(',', '.'));
 
         const matches = (marca === 'Escolher...' || veiculoMarca === marca) &&
                         (ano === '' || veiculoAno === ano) &&
-                        (cor === 'Escolher...' || veiculoCor === cor);
+                        (cor === 'Escolher...' || veiculoCor === cor) &&
+                        (modelo === 'Escolher...' || veiculoModelo === modelo) &&
+                        (isNaN(precoMaximo) || veiculoPreco <= precoMaximo);
 
         veiculo.style.display = matches ? 'block' : 'none';
     });

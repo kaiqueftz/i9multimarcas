@@ -54,6 +54,41 @@ document.getElementById('filtro-form').addEventListener('submit', function(event
     });
 });
 
+
+// Carrossel
+// Espera até que a página carregue completamente
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Seleciona o ícone de seta para clique
+    const arrowIcon = document.querySelector('.overlay i');
+    const carrosselPrisma = document.getElementById('carrosselPrisma');
+
+    // Adiciona um evento de clique no ícone de seta
+    arrowIcon.addEventListener('click', function () {
+        // Inicia o carrossel do Prisma após o clique
+        var carouselInstance = new bootstrap.Carousel(carrosselPrisma);
+        carouselInstance.cycle();
+
+        // Remove o ícone da seta após o clique
+        arrowIcon.style.display = 'none';
+
+        // Remove o efeito blur de todas as imagens do carrossel
+        const allImages = carrosselPrisma.querySelectorAll('img');
+        allImages.forEach(image => {
+            image.classList.remove('blur-image');
+        });
+
+        // Certifique-se de que o carrossel não re-adicione o blur nas transições
+        carrosselPrisma.addEventListener('slide.bs.carousel', function () {
+            allImages.forEach(image => {
+                image.classList.remove('blur-image');
+            });
+
+            
+        });
+    });
+});
+
 // Mostrar apenas 4 veículos inicialmente
 const veiculos = document.querySelectorAll('.veiculo');
 veiculos.forEach((veiculo, index) => {

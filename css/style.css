@@ -6,6 +6,20 @@ body {
     padding-top: 40px; /* Espaço para a navbar fixa */
 }
 
+.sold-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 70px;
+    z-index: 10;
+    opacity: 0.9;
+    pointer-events: none;
+}
 
 .image-container img {
     width: 100%;

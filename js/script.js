@@ -9,6 +9,14 @@ document.querySelectorAll('.veiculo').forEach(veiculo => {
     });
 });
 
+document.getElementById("filtro-form").addEventListener("submit", function(event) {
+    event.preventDefault();  // Evita o recarregamento da página
+    // Seu código de filtro aqui (caso haja lógica de filtro)
+
+    // Rola a página até a seção de veículos
+    document.getElementById("veiculos").scrollIntoView({ behavior: "smooth" });
+});
+
 // Redefinir filtros e mostrar todos os veículos
 document.getElementById('btn-redefinir').addEventListener('click', function() {
     document.getElementById('filtro-form').reset();

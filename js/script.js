@@ -133,3 +133,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+//Voltar para o topo com o clique
+document.addEventListener('DOMContentLoaded', function () {
+    // Função para rolar suavemente para o topo da página
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // Adiciona o evento de clique na logo
+    const logo = document.getElementById('logo-navbar');
+    logo.addEventListener('click', scrollToTop);
+
+    // Adiciona o evento de clique no nome da marca
+    const brandLink = document.getElementById('brand-link');
+    brandLink.addEventListener('click', scrollToTop);
+});
+

@@ -8,7 +8,19 @@ body {
 
 .card-title{
     font-size: 1.8rem;
+    padding: 0; /* Ajuste se o card tiver padding que esteja influenciando */
 }
+
+.card-price {
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: price;
+}
+
+@font-face {
+    font-family: price;
+    src: url(../font/Extra\ Days.otf)
+  }
 
 .sold-banner {
     position: absolute;
@@ -60,4 +72,6 @@ body {
     position: relative;
     text-align: center;
 }
+
+
 

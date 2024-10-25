@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const carrosselId = `carrossel${index}`; // ID único para cada carrossel
   
           htmlContent += `
-            <div class="col-lg-3 col-md-6 mb-4 veiculo" data-marca="${carro.marca}" data-modelo="${carro.modelo}" data-ano="${carro.ano}" data-cor="${carro.cor}" data-km="${carro.km}" data-preco="${carro.preco}">
+            <div class="col-lg-3 col-md-6 mb-4 veiculo" data-nome"${carro.nome}" data-marca="${carro.marca}" data-modelo="${carro.modelo}" data-ano="${carro.ano}" data-cor="${carro.cor}" data-km="${carro.km}" data-preco="${carro.preco}">
               <div class="card h-100">
                 <div class="image-container">
                   <div id="${carrosselId}" class="carousel slide" data-bs-ride="carousel">
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   </div>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title"><b>${carro.modelo}</b></h5>
+                  <h5 class="card-title"><b>${carro.nome}</b></h5>
                   <p class="card-text">
                     <li><b>Ano:</b> ${carro.ano}</li>
                     <li><b>Marca:</b> ${carro.marca}</li>

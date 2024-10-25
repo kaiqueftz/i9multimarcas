@@ -2,7 +2,8 @@
   {
     "__comment": "FIESTA PRATA",
     "marca": "Ford",
-    "modelo": "Fiesta Class",
+    "nome": "Fiesta Class",
+    "modelo": "Hatch",
     "ano": "2013",
     "cor": "Prata",
     "km": "166712",
@@ -21,7 +22,8 @@
   {
     "__comment": "FIAT ARGO BRANCO",
     "marca": "Fiat",
-    "modelo": "Argo",
+    "nome": "Argo",
+    "modelo": "Hatch",
     "ano": "2023",
     "cor": "Branco",
     "km": "53379",
@@ -40,7 +42,8 @@
   {
     "__comment": "GOL G6 BRANCO",
     "marca": "Volkswagen",
-    "modelo": "Gol G6",
+    "nome": "Gol G6",
+    "modelo": "Hatch",
     "ano": "2014",
     "cor": "Branco",
     "km": "155514",
@@ -54,5 +57,294 @@
       "img/carros/golG6Branco/1 (2).jpeg",
       "img/carros/golG6Branco/1 (3).jpeg"
     ]
-  }
+  },
+
+  {
+    "__comment": "FOX PRATA",
+    "marca": "Volkswagen",
+    "nome": "Fox",
+    "modelo": "Hatch",
+    "ano": "2014",
+    "cor": "Prata",
+    "km": "",
+    "preco": "",
+    "opcionais": "Completo",
+    "motor": "1.6",
+    "cambio": "Automático",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (1).jpeg",
+      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.46 (1).jpeg",
+      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (2).jpeg",
+      "img/carros/FoxPrata/WhatsApp Image 2024-10-16 at 20.47.47 (3).jpeg"
+    ]
+  },
+
+  {
+    "__comment": "FIORINO BRANCO",
+    "marca": "Fiat",
+    "nome": "Fiorino",
+    "modelo": "Utilitario",
+    "ano": "2014",
+    "cor": "Branco",
+    "km": "303000",
+    "preco": "R$ 55.900",
+    "opcionais": "Completo",
+    "motor": "1.4",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/fiorino/1.jpeg",
+      "img/carros/fiorino/2.jpeg",
+      "img/carros/fiorino/3.jpeg",
+      "img/carros/fiorino/3.1.jpeg",
+      "img/carros/fiorino/4.jpeg",
+      "img/carros/fiorino/5.jpeg",
+      "img/carros/fiorino/6.jpeg"
+    ]
+  },
+
+  {
+    "__comment": "VOYAGE VERMELHO",
+    "marca": "Volkswagen",
+    "nome": "Voyage Comfortline",
+    "modelo": "Sedan",
+    "ano": "2013/14",
+    "cor": "Vermelho",
+    "km": "183170",
+    "preco": "R$ 38.900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/voyageVermelho/1.jpeg",
+      "img/carros/voyageVermelho/2.jpeg",
+      "img/carros/voyageVermelho/3.jpeg"
+    ]
+  },
+    
+  {
+      "__comment": "HB20 Branco",
+      "marca": "Hyundai",
+      "nome": "HB20",
+      "modelo": "Hatch",
+      "ano": "2015",
+      "cor": "Branco",
+      "km": "185700",
+      "preco": "R$ 44.900",
+      "opcionais": "Completo",
+      "motor": "1.0",
+      "cambio": "Manual",
+      "whatsapp": "61986149857",
+      "imagens": [
+        "img/carros/Hb20Branco/298e1fbe-90ef-4e08-ba1a-90d696acc3e1.jpg",
+        "img/carros/Hb20Branco/3eff2cac-439f-4df6-870f-3f033bd31382.jpg",
+        "img/carros/Hb20Branco/611bdd85-5d5f-4a44-aa65-b3691843541c.jpg",
+        "img/carros/Hb20Branco/a4517965-e48a-4ced-baf8-aa7bf637d8bb.jpg"
+      ]
+    },
+
+    {
+      "__comment": "HB20 Prata",
+      "marca": "Hyundai",
+      "nome": "HB20 Vision",
+      "modelo": "Hatch",
+      "ano": "2020",
+      "cor": "Prata",
+      "km": "68600",
+      "preco": "R$ 65.900",
+      "opcionais": "Completo",
+      "motor": "1.6",
+      "cambio": "Manual",
+      "whatsapp": "61986149857",
+      "imagens": [
+        "img/carros/HB20 Prata/Hb20Prata (2).jpeg",
+        "img/carros/HB20 Prata/Hb20Prata (1).jpeg",
+        "img/carros/HB20 Prata/Hb20Prata (4).jpeg",
+        "img/carros/HB20 Prata/Hb20Prata (3).jpeg"
+      ]
+    },
+
+    {
+      "__comment": "Audi A4 Tsfi Prata",
+      "nome": "A4 Tsfi",
+      "marca": "Audi",
+      "modelo": "Sedan",
+      "ano": "2017",
+      "cor": "Prata",
+      "km": "165000",
+      "preco": "R$ 99.900",
+      "opcionais": "Completo",
+      "motor": "2.0",
+      "cambio": "Automático",
+      "whatsapp": "61986149857",
+      "imagens": [
+        "img/carros/A42017/1.jpg",
+        "img/carros/A42017/2.jpg",
+        "img/carros/A42017/3.jpg",
+        "img/carros/A42017/4.jpg"
+      ]
+    },
+
+    {
+      "__comment": "Prisma MAXX Prata",
+      "nome": "Prisma MAXX",
+      "marca": "Chevrolet",
+      "modelo": "Sedan",
+      "ano": "2010",
+      "cor": "Prata",
+      "km": "151000",
+      "preco": "R$ 29.900",
+      "opcionais": "Completo",
+      "motor": "1.0",
+      "cambio": "Manual",
+      "whatsapp": "61986149857",
+      "imagens": [
+        "img/carros/CeltaPrata/CeltaPrata (1).jpeg",
+        "img/carros/CeltaPrata/CeltaPrata (5).jpeg",
+        "img/carros/CeltaPrata/CeltaPrata (3).jpeg",
+        "img/carros/CeltaPrata/CeltaPrata (7).jpeg",
+        "img/carros/CeltaPrata/CeltaPrata (8).jpeg"
+      ]
+    },
+    {
+      "__comment": "Celta Vermelho",
+      "nome": "Celta",
+      "marca": "Chevrolet",
+      "modelo": "Hatch",
+      "ano": "2012",
+      "cor": "Vermelho",
+      "km": "151924",
+      "preco": "R$ 23.900",
+      "opcionais": "Vidros Elétricos",
+      "motor": "1.0",
+      "cambio": "Manual",
+      "whatsapp": "61986149857",
+      "imagens": [
+        "img/carros/CeltaVermelho/celtaVermelho(1).jpg",
+        "img/carros/CeltaVermelho/celtaVermelho(2).jpg",
+        "img/carros/CeltaVermelho/celtaVermelho(3).jpg",
+        "img/carros/CeltaVermelho/celtaVermelho(4).jpg"
+      ]
+    },
+
+    {
+      "__comment": "Honda Fit Prata",
+      "nome": "Honda Fit",
+      "marca": "Honda",
+      "modelo": "Hatch",
+      "ano": "2013/14",
+      "cor": "Prata",
+      "km": "205.594",
+      "preco": "R$ 49.900",
+      "opcionais": "Completo",
+      "motor": "1.4",
+      "cambio": "Manual",
+      "whatsapp": "61986149857",
+      "imagens": [
+          "img/carros/HondaFit/da65028f-5a09-45b2-a8d0-2cd05744f8a5.jpg",
+          "img/carros/HondaFit/4e83e807-2f29-476d-8211-d580d107e5f0.jpg",
+          "img/carros/HondaFit/1e41fe35-75fb-43e4-aeb8-d1cafd0748bd.jpg",
+          "img/carros/HondaFit/0104a2bc-278b-4f24-a922-e3a308805b78.jpg"
+      ]
+  },
+  {
+      "__comment": "Chevrolet Prisma Branco",
+      "nome": "Prisma",
+      "marca": "Chevrolet",
+      "modelo": "Sedan",
+      "ano": "2018",
+      "cor": "Branco",
+      "km": "120.038",
+      "preco": "R$ 61.900",
+      "opcionais": "Completo",
+      "motor": "1.4",
+      "cambio": "Manual",
+      "whatsapp": "61986149857",
+      "imagens": [
+          "img/carros/prisma/IMG_7947.JPG",
+          "img/carros/prisma/IMG_7948.JPG",
+          "img/carros/prisma/IMG_7949.JPG",
+          "img/carros/prisma/IMG_7950.JPG"
+      ]
+  },
+    
+  {
+    "__comment": "Honda Civic EX Preto",
+    "nome": "Civic EX",
+    "marca": "Honda",
+    "modelo": "Sedan",
+    "ano": "2022",
+    "cor": "Preto",
+    "km": "87.000",
+    "preco": "R$ 123.900",
+    "opcionais": "Completo",
+    "whatsapp": "61986149857",
+    "imagens": [
+        "img/carros/civicpreto/WhatsApp Image 2024-09-27 at 15.38.15 (1).jpeg",
+        "img/carros/civicpreto/WhatsApp Image 2024-09-27 at 15.38.15 (2).jpeg",
+        "img/carros/civicpreto/WhatsApp Image 2024-09-27 at 15.38.15.jpeg"
+    ]
+},
+
+{
+    "__comment": "Volkswagen Polo 1.6 Preto",
+    "nome": "Polo",
+    "marca": "Volkswagen",
+    "modelo": "Hatch",
+    "ano": "2008",
+    "cor": "Preto",
+    "km": "205.000",
+    "preco": "R$ 32.900",
+    "opcionais": "Completo",
+    "motor": "1.6",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+        "img/carros/PoloPreto/11.jpeg",
+        "img/carros/PoloPreto/2.jpeg",
+        "img/carros/PoloPreto/3.jpeg",
+        "img/carros/PoloPreto/4.jpeg"
+    ]
+  },
+
+  {
+    "__comment": "Chevrolet Spin 1.8 Prata",
+    "nome": "Spin",
+    "marca": "Chevrolet",
+    "modelo": "Minivan",
+    "ano": "2014",
+    "cor": "Prata",
+    "km": "151.924",
+    "preco": "R$ 44.900",
+    "opcionais": "Completo",
+    "motor": "1.8",
+    "whatsapp": "61986149857",
+    "imagens": [
+        "img/carros/spin/e3c49c42-a942-4228-a6c8-c60a62896472.jpg",
+        "img/carros/spin/e2e8b738-06f2-4370-9262-0940c5733602.jpg",
+        "img/carros/spin/6ee5bd0d-cc17-4e9c-adbd-ebdb92d79ce4.jpg",
+        "img/carros/spin/4e1ebba2-efff-4a04-8542-5eef4b01bb8e.jpg"
+    ]
+},
+{
+    "__comment": "Chevrolet Cruze Sedan 1.4 Vermelho",
+    "nome": "Cruze",
+    "marca": "Chevrolet",
+    "modelo": "Sedan",
+    "ano": "2017",
+    "cor": "Vermelho",
+    "km": "149.124",
+    "preco": "R$ 82.990",
+    "opcionais": "Completo",
+    "motor": "1.4",
+    "whatsapp": "61986149857",
+    "imagens": [
+        "img/carros/Cruze Sedan/IMG_7951.JPG",
+        "img/carros/Cruze Sedan/IMG_7952.JPG",
+        "img/carros/Cruze Sedan/IMG_7953.JPG",
+        "img/carros/Cruze Sedan/IMG_7954.JPG"
+    ]
+}
 ]

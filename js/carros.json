@@ -1,0 +1,58 @@
+[
+  {
+    "__comment": "FIESTA PRATA",
+    "marca": "Ford",
+    "modelo": "Fiesta Class",
+    "ano": "2013",
+    "cor": "Prata",
+    "km": "166712",
+    "preco": "R$ 29.900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/fiestaPrata/2.jpeg",
+      "img/carros/fiestaPrata/1.jpeg",
+      "img/carros/fiestaPrata/3.jpeg"
+    ]
+  },
+
+  {
+    "__comment": "FIAT ARGO BRANCO",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "ano": "2023",
+    "cor": "Branco",
+    "km": "53379",
+    "preco": "",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/agoBranco/1 (1).jpeg",
+      "img/carros/agoBranco/1 (2).jpeg",
+      "img/carros/agoBranco/1 (3).jpeg"
+    ]
+  },
+
+  {
+    "__comment": "GOL G6 BRANCO",
+    "marca": "Volkswagen",
+    "modelo": "Gol G6",
+    "ano": "2014",
+    "cor": "Branco",
+    "km": "155514",
+    "preco": "R$ 42.900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/golG6Branco/1 (1).jpeg",
+      "img/carros/golG6Branco/1 (2).jpeg",
+      "img/carros/golG6Branco/1 (3).jpeg"
+    ]
+  }
+]

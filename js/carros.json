@@ -1,5 +1,44 @@
 [
   {
+    "__comment": "GOL G4",
+    "marca": "Volkswagen",
+    "nome": "Gol G4",
+    "modelo": "Hatch",
+    "ano": "2013",
+    "cor": "Preto",
+    "km": "178971",
+    "preco": "R$ 23.900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/golG4/1.jpeg",
+      "img/carros/golG4/2.jpeg",
+      "img/carros/golG4/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "PUNTO PRETO",
+    "marca": "Fiat",
+    "nome": "Punto",
+    "modelo": "Hatch",
+    "ano": "2010",
+    "cor": "Preto",
+    "km": "142000",
+    "preco": "R$ 32.900",
+    "opcionais": "Completo",
+    "motor": "1.4",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/puntoPreto/1.jpeg",
+      "img/carros/puntoPreto/2.jpeg",
+      "img/carros/puntoPreto/3.jpeg"
+    ]
+  },
+
+  {
     "__comment": "FIESTA PRATA",
     "marca": "Ford",
     "nome": "Fiesta Class",

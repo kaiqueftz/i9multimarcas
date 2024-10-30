@@ -69,6 +69,11 @@ body {
     cursor: pointer;
 }
 
+.oculto {
+    display: none;
+  }
+  
+
 .vehicle-image-container {
     position: relative;
     text-align: center;

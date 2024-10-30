@@ -1,17 +1,3 @@
-// Função para remover o blur da imagem e ocultar o ícone ao clicar
-document.querySelectorAll('.veiculo').forEach(veiculo => {
-    const img = veiculo.querySelectorAll('.carousel-inner img');
-    const icon = veiculo.querySelector('.overlay i');
-
-    veiculo.addEventListener('click', () => {
-        img.forEach(image => {
-            image.classList.remove('blur-image'); // Remove o desfoque de todas as imagens
-        });
-        icon.style.display = 'none'; // Oculta o ícone
-    });
-});
-
-
 document.getElementById("filtro-form").addEventListener("submit", function(event) {
     event.preventDefault();  // Evita o recarregamento da página
     // Seu código de filtro aqui (caso haja lógica de filtro)
@@ -54,41 +40,6 @@ document.getElementById('filtro-form').addEventListener('submit', function(event
                         (isNaN(precoMaximo) || veiculoPreco <= precoMaximo);
 
         veiculo.style.display = matches ? 'block' : 'none';
-    });
-});
-
-
-// Carrossel
-// Espera até que a página carregue completamente
-document.addEventListener('DOMContentLoaded', function () {
-
-    // Seleciona o ícone de seta para clique
-    const arrowIcon = document.querySelector('.overlay i');
-    const carrosselPrisma = document.getElementById('carrosselPrisma');
-
-    // Adiciona um evento de clique no ícone de seta
-    arrowIcon.addEventListener('click', function () {
-        // Inicia o carrossel do Prisma após o clique
-        var carouselInstance = new bootstrap.Carousel(carrosselPrisma);
-        carouselInstance.cycle();
-
-        // Remove o ícone da seta após o clique
-        arrowIcon.style.display = 'none';
-
-        // Remove o efeito blur de todas as imagens do carrossel
-        const allImages = carrosselPrisma.querySelectorAll('img');
-        allImages.forEach(image => {
-            image.classList.remove('blur-image');
-        });
-
-        // Certifique-se de que o carrossel não re-adicione o blur nas transições
-        carrosselPrisma.addEventListener('slide.bs.carousel', function () {
-            allImages.forEach(image => {
-                image.classList.remove('blur-image');
-            });
-
-            
-        });
     });
 });
 
@@ -167,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
           data.forEach((carro, index) => {
               const carrosselId = `carrossel${index}`; // ID único para cada carrossel
               htmlContent += `
-                  <div class="col-lg-3 col-md-6 mb-4 veiculo" data-nome="${carro.nome}" data-marca="${carro.marca}" data-modelo="${carro.modelo}" data-ano="${carro.ano}" data-cor="${carro.cor}" data-km="${carro.km}" data-preco="${carro.preco}">
+                  <div class="col-lg-3 col-md-6 mb-4 veiculo" data-nome="${carro.nome}" data-marca="${carro.marca}" data-modelo="${carro.modelo}" data-ano="${carro.anoFiltro}" data-cor="${carro.cor}" data-km="${carro.km}" data-preco="${carro.preco}">
                       <div class="card h-100">
                           <div class="image-container">
                               <div id="${carrosselId}" class="carousel slide" data-bs-ride="carousel">
@@ -189,6 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
                           <div class="card-body">
                               <h5 class="card-title"><b>${carro.nome}</b></h5>
                               <p class="card-text">
+                                  <li class="oculto"><b>Ano:</b> ${carro.anoFiltro}</li>
                                   <li><b>Ano:</b> ${carro.ano}</li>
                                   <li><b>Marca:</b> ${carro.marca}</li>
                                   <li><b>Cor:</b> ${carro.cor}</li>

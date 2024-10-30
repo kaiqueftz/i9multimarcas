@@ -1,5 +1,45 @@
 [
   {
+    "__comment": "Virtus",
+    "marca": "Volkswagen",
+    "nome": "Virtus MSI",
+    "modelo": "Sedan",
+    "anoFiltro": "2018",
+    "ano": "2018/18",
+    "cor": "Prata",
+    "km": "117556",
+    "preco": "R$ 69.900",
+    "opcionais": "Completo",
+    "motor": "1.6",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/virtusMSI/1.jpeg",
+      "img/carros/virtusMSI/2.jpeg",
+      "img/carros/virtusMSI/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "FIAT UNO",
+    "marca": "Fiat",
+    "nome": "Uno Vivace",
+    "modelo": "Hatch",
+    "anoFiltro": "2011",
+    "ano": "2010/11",
+    "cor": "Prata",
+    "km": "249160",
+    "preco": "R$ 29.900",
+    "opcionais": "Hidráulico",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/unoVivace/1.jpeg",
+      "img/carros/unoVivace/2.jpeg",
+      "img/carros/unoVivace/3.jpeg"
+    ]
+  },
+  {
     "__comment": "GOL G4",
     "marca": "Volkswagen",
     "nome": "Gol G4",

@@ -43,6 +43,57 @@ document.getElementById('filtro-form').addEventListener('submit', function(event
     });
 });
 
+//Filtro escolhido fica visível na tela
+document.addEventListener('DOMContentLoaded', () => {
+    const selectedFiltersList = document.getElementById('selected-filters-list');
+    const filters = ['marca', 'ano', 'modelo', 'cor', 'preco'];
+
+    // Função para atualizar os filtros selecionados
+    function updateSelectedFilters() {
+        selectedFiltersList.innerHTML = ''; // Limpa a lista atual
+
+        filters.forEach(filterId => {
+            const filterElement = document.getElementById(filterId);
+            let value = filterElement.value;
+
+            if (value && value !== 'Escolher...' && value !== '') {
+                const filterBadge = document.createElement('span');
+                filterBadge.className = 'badge bg-primary position-relative';
+                filterBadge.textContent = `${filterElement.previousElementSibling.textContent}: ${value}`;
+                
+                // Adicionar botão para remover filtro
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'btn-close btn-close-white position-absolute top-0 end-0 ms-2';
+                removeBtn.style.fontSize = '0.8em';
+                removeBtn.addEventListener('click', () => {
+                    if (filterElement.tagName === 'SELECT') filterElement.selectedIndex = 0;
+                    else filterElement.value = '';
+                    updateSelectedFilters();
+                });
+
+                filterBadge.appendChild(removeBtn);
+                selectedFiltersList.appendChild(filterBadge);
+            }
+        });
+    }
+
+    // Adiciona eventos para atualizar ao mudar qualquer filtro
+    filters.forEach(filterId => {
+        document.getElementById(filterId).addEventListener('change', updateSelectedFilters);
+    });
+
+    // Botão de redefinir filtros
+    document.getElementById('btn-redefinir').addEventListener('click', () => {
+        filters.forEach(filterId => {
+            const filterElement = document.getElementById(filterId);
+            if (filterElement.tagName === 'SELECT') filterElement.selectedIndex = 0;
+            else filterElement.value = '';
+        });
+        updateSelectedFilters();
+    });
+});
+
+
 // Mostrar apenas 4 veículos inicialmente
 const veiculos = document.querySelectorAll('.veiculo');
 veiculos.forEach((veiculo, index) => {

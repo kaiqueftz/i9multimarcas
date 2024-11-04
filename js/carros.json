@@ -41,27 +41,7 @@
       "img/carros/unoVivace/3.jpeg"
     ]
   },
-  {
-    "__comment": "GOL G4",
-    "marca": "Volkswagen",
-    "nome": "Gol G4",
-    "modelo": "Hatch",
-    "anoFiltro": "2013",
-    "ano": "2013",
-    "cor": "Preto",
-    "km": "178971",
-    "preco": "R$ 23.900",
-    "precoFiltro": "23900",
-    "opcionais": "Completo",
-    "motor": "1.0",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/golG4/1.jpeg",
-      "img/carros/golG4/2.jpeg",
-      "img/carros/golG4/3.jpeg"
-    ]
-  },
+ 
   {
     "__comment": "PUNTO PRETO",
     "marca": "Fiat",
@@ -128,28 +108,6 @@
   },
 
   {
-    "__comment": "GOL G6 BRANCO",
-    "marca": "Volkswagen",
-    "nome": "Gol G6",
-    "modelo": "Hatch",
-    "anoFiltro": "2014",
-    "ano": "2014",
-    "cor": "Branco",
-    "km": "155514",
-    "preco": "R$ 42.900",
-    "precoFiltro": "42900",
-    "opcionais": "Completo",
-    "motor": "1.0",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/golG6Branco/1 (1).jpeg",
-      "img/carros/golG6Branco/1 (2).jpeg",
-      "img/carros/golG6Branco/1 (3).jpeg"
-    ]
-  },
-
-  {
     "__comment": "FOX PRATA",
     "marca": "Volkswagen",
     "nome": "Fox",
@@ -196,51 +154,6 @@
       "img/carros/fiorino/6.jpeg"
     ]
   },
-
-  {
-    "__comment": "VOYAGE VERMELHO",
-    "marca": "Volkswagen",
-    "nome": "Voyage Comfortline",
-    "modelo": "Sedan",
-    "anoFiltro": "2014",
-    "ano": "2013/14",
-    "cor": "Vermelho",
-    "km": "183170",
-    "preco": "R$ 38.900",
-    "precoFiltro": "38900",
-    "opcionais": "Completo",
-    "motor": "1.0",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/voyageVermelho/1.jpeg",
-      "img/carros/voyageVermelho/2.jpeg",
-      "img/carros/voyageVermelho/3.jpeg"
-    ]
-  },
-    
-  {
-      "__comment": "HB20 Branco",
-      "marca": "Hyundai",
-      "nome": "HB20",
-      "modelo": "Hatch",
-      "anoFiltro": "2015",
-      "ano": "2015",
-      "cor": "Branco",
-      "km": "185700",
-      "preco": "R$ 44.900",
-      "precoFiltro": "44900",
-      "opcionais": "Completo",
-      "motor": "1.0",
-      "cambio": "Manual",
-      "whatsapp": "61986149857",
-      "imagens": [
-        "img/carros/Hb20Branco/298e1fbe-90ef-4e08-ba1a-90d696acc3e1.jpg",
-        "img/carros/Hb20Branco/3eff2cac-439f-4df6-870f-3f033bd31382.jpg",
-        "img/carros/Hb20Branco/611bdd85-5d5f-4a44-aa65-b3691843541c.jpg",
-        "img/carros/Hb20Branco/a4517965-e48a-4ced-baf8-aa7bf637d8bb.jpg"
-      ]
-    },
 
     {
       "__comment": "HB20 Prata",
@@ -289,52 +202,6 @@
     },
 
     {
-      "__comment": "Prisma MAXX Prata",
-      "nome": "Prisma MAXX",
-      "marca": "Chevrolet",
-      "modelo": "Sedan",
-      "anoFiltro": "2010",
-      "ano": "2010",
-      "cor": "Prata",
-      "km": "151000",
-      "preco": "R$ 29.900",
-      "precoFiltro": "29900",
-      "opcionais": "Completo",
-      "motor": "1.0",
-      "cambio": "Manual",
-      "whatsapp": "61986149857",
-      "imagens": [
-        "img/carros/CeltaPrata/CeltaPrata (1).jpeg",
-        "img/carros/CeltaPrata/CeltaPrata (5).jpeg",
-        "img/carros/CeltaPrata/CeltaPrata (3).jpeg",
-        "img/carros/CeltaPrata/CeltaPrata (7).jpeg",
-        "img/carros/CeltaPrata/CeltaPrata (8).jpeg"
-      ]
-    },
-    {
-      "__comment": "Celta Vermelho",
-      "nome": "Celta",
-      "marca": "Chevrolet",
-      "modelo": "Hatch",
-      "anoFiltro": "2012",
-      "ano": "2012",
-      "cor": "Vermelho",
-      "km": "151924",
-      "preco": "R$ 23.900",
-      "precoFiltro": "23900",
-      "opcionais": "Vidros Elétricos",
-      "motor": "1.0",
-      "cambio": "Manual",
-      "whatsapp": "61986149857",
-      "imagens": [
-        "img/carros/CeltaVermelho/celtaVermelho(1).jpg",
-        "img/carros/CeltaVermelho/celtaVermelho(2).jpg",
-        "img/carros/CeltaVermelho/celtaVermelho(3).jpg",
-        "img/carros/CeltaVermelho/celtaVermelho(4).jpg"
-      ]
-    },
-
-    {
       "__comment": "Honda Fit Prata",
       "nome": "Honda Fit",
       "marca": "Honda",
@@ -378,26 +245,6 @@
           "img/carros/prisma/IMG_7950.JPG"
       ]
   },
-    
-  {
-    "__comment": "Honda Civic EX Preto",
-    "nome": "Civic EX",
-    "marca": "Honda",
-    "modelo": "Sedan",
-    "anoFiltro": "2022",
-    "ano": "2022",
-    "cor": "Preto",
-    "km": "87.000",
-    "preco": "R$ 123.900",
-    "precoFiltro": "123900",
-    "opcionais": "Completo",
-    "whatsapp": "61986149857",
-    "imagens": [
-        "img/carros/civicpreto/WhatsApp Image 2024-09-27 at 15.38.15 (1).jpeg",
-        "img/carros/civicpreto/WhatsApp Image 2024-09-27 at 15.38.15 (2).jpeg",
-        "img/carros/civicpreto/WhatsApp Image 2024-09-27 at 15.38.15.jpeg"
-    ]
-},
 
 {
     "__comment": "Volkswagen Polo 1.6 Preto",

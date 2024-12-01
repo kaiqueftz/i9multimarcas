@@ -94,35 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Mostrar apenas 4 veículos inicialmente
-const veiculos = document.querySelectorAll('.veiculo');
-veiculos.forEach((veiculo, index) => {
-    if (index >= 4) {
-        veiculo.classList.add('d-none');
-    }
-});
-
-// Mostrar mais veículos
-document.getElementById('btn-verMais').addEventListener('click', function() {
-    const veiculosOcultos = document.querySelectorAll('.veiculo.d-none');
-    veiculosOcultos.forEach(veiculo => {
-        veiculo.classList.remove('d-none');
-    });
-    this.classList.add('d-none');
-    document.getElementById('btn-fechar').classList.remove('d-none');
-});
-
-// Fechar a visualização dos veículos extras
-document.getElementById('btn-fechar').addEventListener('click', function() {
-    const veiculos = document.querySelectorAll('.veiculo');
-    veiculos.forEach((veiculo, index) => {
-        if (index >= 4) {
-            veiculo.classList.add('d-none');
-        }
-    });
-    document.getElementById('btn-verMais').classList.remove('d-none');
-    this.classList.add('d-none');
-});
 
 document.addEventListener("DOMContentLoaded", function () {
     var navbarCollapse = document.querySelector('.navbar-collapse');

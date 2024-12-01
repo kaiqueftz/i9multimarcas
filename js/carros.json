@@ -1,26 +1,5 @@
 [
   {
-    "__comment": "JETTA",
-    "marca": "Volkswagen",
-    "nome": "Jetta Comfortline",
-    "modelo": "Sedan",
-    "anoFiltro": "2014",
-    "ano": "2013/14",
-    "cor": "Branco",
-    "km": "186047",
-    "preco": "R$ 64.900",
-    "precoFiltro": "64900",
-    "opcionais": "Completo",
-    "motor": "2.0",
-    "cambio": "Automático",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/jetta/1.jpeg",
-      "img/carros/jetta/2.jpeg",
-      "img/carros/jetta/3.jpeg"
-    ]
-  },
-  {
     "__comment": "hb20 comfort",
     "marca": "Hyundai",
     "nome": "HB20 Comfort",
@@ -41,91 +20,6 @@
       "img/carros/hb20C/3.jpeg"
     ]
   },
-  {
-    "__comment": "jeep",
-    "marca": "",
-    "nome": "Renegade Sport",
-    "modelo": "Hatch",
-    "anoFiltro": "2016",
-    "ano": "2016/16",
-    "cor": "Branco",
-    "km": "167545",
-    "preco": "R$ 62.900",
-    "precoFiltro": "62900",
-    "opcionais": "Completo",
-    "motor": "1.8",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/renegade/1.jpeg",
-      "img/carros/renegade/2.jpeg",
-      "img/carros/renegade/3.jpeg"
-    ]
-  },
-  {
-    "__comment": "VW Polo",
-    "marca": "Volkswagen",
-    "nome": "Polo Comfortline",
-    "modelo": "Hatch",
-    "anoFiltro": "2010",
-    "ano": "2009/10",
-    "cor": "Prata",
-    "km": "174239",
-    "preco": "R$ 37.900",
-    "precoFiltro": "37.900",
-    "opcionais": "Completo",
-    "motor": "1.6",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/poloprata/1.jpeg",
-      "img/carros/poloprata/2.jpeg",
-      "img/carros/poloprata/3.jpeg"
-    ]
-  },
-  {
-    "__comment": "Virtus",
-    "marca": "Volkswagen",
-    "nome": "Virtus MSI",
-    "modelo": "Sedan",
-    "anoFiltro": "2018",
-    "ano": "2018/18",
-    "cor": "Prata",
-    "km": "117556",
-    "preco": "R$ 69.900",
-    "precoFiltro": "69900",
-    "opcionais": "Completo",
-    "motor": "1.6",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/virtusMSI/1.jpeg",
-      "img/carros/virtusMSI/2.jpeg",
-      "img/carros/virtusMSI/3.jpeg"
-    ]
-  },
-  {
-    "__comment": "FIAT UNO",
-    "marca": "Fiat",
-    "nome": "Uno Vivace",
-    "modelo": "Hatch",
-    "anoFiltro": "2011",
-    "ano": "2010/11",
-    "cor": "Prata",
-    "km": "249160",
-    "preco": "R$ 29.900",
-    "precoFiltro": "29900",
-    "opcionais": "Hidráulico",
-    "motor": "1.0",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-      "img/carros/unoVivace/1.jpeg",
-      "img/carros/unoVivace/2.jpeg",
-      "img/carros/unoVivace/3.jpeg"
-    ]
-  },
- 
   {
     "__comment": "PUNTO PRETO",
     "marca": "Fiat",
@@ -240,53 +134,6 @@
       "img/carros/fiorino/6.jpeg"
     ]
   },
-
-    {
-      "__comment": "HB20 Prata",
-      "marca": "Hyundai",
-      "nome": "HB20 Vision",
-      "modelo": "Hatch",
-      "anoFiltro": "2020",
-      "ano": "2020",
-      "cor": "Prata",
-      "km": "68600",
-      "preco": "R$ 65.900",
-      "precoFiltro": "65900",
-      "opcionais": "Completo",
-      "motor": "1.6",
-      "cambio": "Manual",
-      "whatsapp": "61986149857",
-      "imagens": [
-        "img/carros/HB20 Prata/Hb20Prata (2).jpeg",
-        "img/carros/HB20 Prata/Hb20Prata (1).jpeg",
-        "img/carros/HB20 Prata/Hb20Prata (4).jpeg",
-        "img/carros/HB20 Prata/Hb20Prata (3).jpeg"
-      ]
-    },
-
-    {
-      "__comment": "Audi A4 Tsfi Prata",
-      "nome": "A4 Tsfi",
-      "marca": "Audi",
-      "modelo": "Sedan",
-      "anoFiltro": "2017",
-      "ano": "2017",
-      "cor": "Prata",
-      "km": "165000",
-      "preco": "R$ 99.900",
-      "precoFiltro": "99900",
-      "opcionais": "Completo",
-      "motor": "2.0",
-      "cambio": "Automático",
-      "whatsapp": "61986149857",
-      "imagens": [
-        "img/carros/A42017/1.jpg",
-        "img/carros/A42017/2.jpg",
-        "img/carros/A42017/3.jpg",
-        "img/carros/A42017/4.jpg"
-      ]
-    },
-
     {
       "__comment": "Honda Fit Prata",
       "nome": "Honda Fit",
@@ -330,71 +177,5 @@
           "img/carros/prisma/IMG_7949.JPG",
           "img/carros/prisma/IMG_7950.JPG"
       ]
-  },
-
-{
-    "__comment": "Volkswagen Polo 1.6 Preto",
-    "nome": "Polo",
-    "marca": "Volkswagen",
-    "modelo": "Hatch",
-    "anoFiltro": "2008",
-    "ano": "2008",
-    "cor": "Preto",
-    "km": "205.000",
-    "preco": "R$ 32.900",
-    "precoFiltro": "32900",
-    "opcionais": "Completo",
-    "motor": "1.6",
-    "cambio": "Manual",
-    "whatsapp": "61986149857",
-    "imagens": [
-        "img/carros/PoloPreto/11.jpeg",
-        "img/carros/PoloPreto/2.jpeg",
-        "img/carros/PoloPreto/3.jpeg",
-        "img/carros/PoloPreto/4.jpeg"
-    ]
-  },
-
-  {
-    "__comment": "Chevrolet Spin 1.8 Prata",
-    "nome": "Spin",
-    "marca": "Chevrolet",
-    "modelo": "Minivan",
-    "anoFiltro": "2014",
-    "ano": "2014",
-    "cor": "Prata",
-    "km": "151.924",
-    "preco": "R$ 44.900",
-    "precoFiltro": "44900",
-    "opcionais": "Completo",
-    "motor": "1.8",
-    "whatsapp": "61986149857",
-    "imagens": [
-        "img/carros/spin/e3c49c42-a942-4228-a6c8-c60a62896472.jpg",
-        "img/carros/spin/e2e8b738-06f2-4370-9262-0940c5733602.jpg",
-        "img/carros/spin/6ee5bd0d-cc17-4e9c-adbd-ebdb92d79ce4.jpg",
-        "img/carros/spin/4e1ebba2-efff-4a04-8542-5eef4b01bb8e.jpg"
-    ]
-},
-{
-    "__comment": "Chevrolet Cruze Sedan 1.4 Vermelho",
-    "nome": "Cruze",
-    "marca": "Chevrolet",
-    "modelo": "Sedan",
-    "anoFiltro": "2017",
-    "ano": "2017",
-    "cor": "Vermelho",
-    "km": "149.124",
-    "preco": "R$ 82.990",
-    "precoFiltro": "82900",
-    "opcionais": "Completo",
-    "motor": "1.4",
-    "whatsapp": "61986149857",
-    "imagens": [
-        "img/carros/Cruze Sedan/IMG_7951.JPG",
-        "img/carros/Cruze Sedan/IMG_7952.JPG",
-        "img/carros/Cruze Sedan/IMG_7953.JPG",
-        "img/carros/Cruze Sedan/IMG_7954.JPG"
-    ]
-}
+  }
 ]

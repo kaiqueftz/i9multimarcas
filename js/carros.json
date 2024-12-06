@@ -1,5 +1,47 @@
 [
   {
+    "__comment": "Creta Platinum TGDI",
+    "marca": "Hyundai",
+    "nome": "Creta Platinum TGDI",
+    "modelo": "SUV",
+    "anoFiltro": "2022",
+    "ano": "2022/2023",
+    "cor": "Prata",
+    "km": "37.010",
+    "preco": "R$ 129.900",
+    "precoFiltro": "129900",
+    "opcionais": "Completo + start stop + teto solar e panorâmico + câmera dianteira e traseira",
+    "motor": "1.0",
+    "cambio": "Automático",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/creta/1.jpeg",
+      "img/carros/creta/2.jpeg",
+      "img/carros/creta/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Argo Drive",
+    "marca": "Fiat",
+    "nome": "Argo Drive",
+    "modelo": "Hatch",
+    "anoFiltro": "2022",
+    "ano": "2022/2023",
+    "cor": "Prata",
+    "km": "45.505",
+    "preco": "R$ 61.900",
+    "precoFiltro": "61900",
+    "opcionais": "Completo + multimídia",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/argo_drive/1.jpeg",
+      "img/carros/argo_drive/2.jpeg",
+      "img/carros/argo_drive/3.jpeg"
+    ]
+  },
+  {
     "__comment": "Mobi Like",
     "marca": "Fiat",
     "nome": "Mobi Like",

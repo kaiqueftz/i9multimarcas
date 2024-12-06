@@ -1,7 +1,7 @@
 [
   {
     "__comment": "Mobi Like",
-    "marca": "FIAT",
+    "marca": "Fiat",
     "nome": "Mobi Like",
     "modelo": "Hatch",
     "anoFiltro": "2022",
@@ -43,7 +43,7 @@
   },
   {
     "__comment": "Onix LT2",
-    "marca": "CHEVROLET",
+    "marca": "Chevrolet",
     "nome": "Onix LT2",
     "modelo": "Hatch",
     "anoFiltro": "2023",
@@ -85,7 +85,7 @@
   },
   {
     "__comment": "Sandero",
-    "marca": "RENAULT",
+    "marca": "Renault",
     "nome": "Sandero",
     "modelo": "Hatch",
     "anoFiltro": "2012",
@@ -106,7 +106,7 @@
   },
   {
     "__comment": "IX35",
-    "marca": "HYUNDAI",
+    "marca": "Hyundai",
     "nome": "IX35",
     "modelo": "SUV",
     "anoFiltro": "2017",
@@ -127,7 +127,7 @@
   },
   {
     "__comment": "Mobi Like",
-    "marca": "FIAT",
+    "marca": "Fiat",
     "nome": "Mobi Like",
     "modelo": "Hatch",
     "anoFiltro": "2022",
@@ -148,7 +148,7 @@
   },
   {
     "__comment": "Palio Essence",
-    "marca": "FIAT",
+    "marca": "Fiat",
     "nome": "Palio Essence",
     "modelo": "Hatch",
     "anoFiltro": "2012",
@@ -169,7 +169,7 @@
   },
   {
     "__comment": "City EXL",
-    "marca": "HONDA",
+    "marca": "Honda",
     "nome": "City EXL",
     "modelo": "Sedan",
     "anoFiltro": "2022",
@@ -190,7 +190,7 @@
   },
   {
     "__comment": "Corolla/Cross",
-    "marca": "TOYOTA",
+    "marca": "Toyota",
     "nome": "Corolla/Cross",
     "modelo": "SUV",
     "anoFiltro": "2022",
@@ -211,7 +211,7 @@
   },
   {
     "__comment": "Argo Drive",
-    "marca": "FIAT",
+    "marca": "Fiat",
     "nome": "Argo Drive",
     "modelo": "Hatch",
     "anoFiltro": "2022",

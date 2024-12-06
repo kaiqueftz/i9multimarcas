@@ -1,5 +1,236 @@
 [
   {
+    "__comment": "Mobi Like",
+    "marca": "FIAT",
+    "nome": "Mobi Like",
+    "modelo": "Hatch",
+    "anoFiltro": "2022",
+    "ano": "2022/23",
+    "cor": "Prata",
+    "km": "44.912",
+    "preco": "R$ 52.900",
+    "precoFiltro": "52900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/mobi_like/1.jpeg",
+      "img/carros/mobi_like/2.jpeg",
+      "img/carros/mobi_like/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Aircross Exclusive",
+    "marca": "Citroen",
+    "nome": "Aircross Exclusive",
+    "modelo": "SUV",
+    "anoFiltro": "2015",
+    "ano": "2015/15",
+    "cor": "Prata",
+    "km": "94.006",
+    "preco": "R$ 41.900",
+    "precoFiltro": "41900",
+    "opcionais": "Completo",
+    "motor": "1.6",
+    "cambio": "Automática",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/aircross/1.jpeg",
+      "img/carros/aircross/2.jpeg",
+      "img/carros/aircross/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Onix LT2",
+    "marca": "CHEVROLET",
+    "nome": "Onix LT2",
+    "modelo": "Hatch",
+    "anoFiltro": "2023",
+    "ano": "2023/24",
+    "cor": "Vermelha",
+    "km": "37.626",
+    "preco": "R$ 74.900",
+    "precoFiltro": "74900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/onix/1.jpeg",
+      "img/carros/onix/2.jpeg",
+      "img/carros/onix/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "QQ Smile",
+    "marca": "CHERY",
+    "nome": "QQ Smile",
+    "modelo": "Hatch",
+    "anoFiltro": "2018",
+    "ano": "2018/18",
+    "cor": "Vermelho",
+    "km": "157.975",
+    "preco": "R$ 27.900",
+    "precoFiltro": "27900",
+    "opcionais": "Vidro elétrico",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/qq/1.jpeg",
+      "img/carros/qq/2.jpeg",
+      "img/carros/qq/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Sandero",
+    "marca": "RENAULT",
+    "nome": "Sandero",
+    "modelo": "Hatch",
+    "anoFiltro": "2012",
+    "ano": "2012/13",
+    "cor": "Preto",
+    "km": "169.298",
+    "preco": "R$ 32.900",
+    "precoFiltro": "32900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/sandero/1.jpeg",
+      "img/carros/sandero/2.jpeg",
+      "img/carros/sandero/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "IX35",
+    "marca": "HYUNDAI",
+    "nome": "IX35",
+    "modelo": "SUV",
+    "anoFiltro": "2017",
+    "ano": "2017/18",
+    "cor": "Branca",
+    "km": "95.128",
+    "preco": "R$ 87.900",
+    "precoFiltro": "87900",
+    "opcionais": "Completo",
+    "motor": "2.0",
+    "cambio": "Automático",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/ix35/1.jpeg",
+      "img/carros/ix35/2.jpeg",
+      "img/carros/ix35/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Mobi Like",
+    "marca": "FIAT",
+    "nome": "Mobi Like",
+    "modelo": "Hatch",
+    "anoFiltro": "2022",
+    "ano": "2022/23",
+    "cor": "Branco",
+    "km": "55.051",
+    "preco": "R$ 49.900",
+    "precoFiltro": "49900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/mobi/1.jpeg",
+      "img/carros/mobi/2.jpeg",
+      "img/carros/mobi/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Palio Essence",
+    "marca": "FIAT",
+    "nome": "Palio Essence",
+    "modelo": "Hatch",
+    "anoFiltro": "2012",
+    "ano": "2012/13",
+    "cor": "Vermelho",
+    "km": "134.660",
+    "preco": "R$ 36.900",
+    "precoFiltro": "36900",
+    "opcionais": "Completo",
+    "motor": "1.6",
+    "cambio": "Dualogic",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/palio/1.jpeg",
+      "img/carros/palio/2.jpeg",
+      "img/carros/palio/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "City EXL",
+    "marca": "HONDA",
+    "nome": "City EXL",
+    "modelo": "Sedan",
+    "anoFiltro": "2022",
+    "ano": "2022/2023",
+    "cor": "Azul",
+    "km": "48.163",
+    "preco": "R$ 109.900",
+    "precoFiltro": "109900",
+    "opcionais": "Completo",
+    "motor": "1.5",
+    "cambio": "Automático",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/city/1.jpeg",
+      "img/carros/city/2.jpeg",
+      "img/carros/city/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Corolla/Cross",
+    "marca": "TOYOTA",
+    "nome": "Corolla/Cross",
+    "modelo": "SUV",
+    "anoFiltro": "2022",
+    "ano": "2022/2023",
+    "cor": "Preto",
+    "km": "50.942",
+    "preco": "R$ 164.900",
+    "precoFiltro": "164900",
+    "opcionais": "Completo",
+    "motor": "1.8 - HYBRID",
+    "cambio": "Automático",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/cross/1.jpeg",
+      "img/carros/cross/2.jpeg",
+      "img/carros/cross/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Argo Drive",
+    "marca": "FIAT",
+    "nome": "Argo Drive",
+    "modelo": "Hatch",
+    "anoFiltro": "2022",
+    "ano": "2022/22",
+    "cor": "Cinza",
+    "km": "65.468",
+    "preco": "R$ 62.900",
+    "precoFiltro": "62900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/argo/1.jpeg",
+      "img/carros/argo/2.jpeg",
+      "img/carros/argo/3.jpeg"
+    ]
+  },
+  {
     "__comment": "hb20 comfort",
     "marca": "Hyundai",
     "nome": "HB20 Comfort",
@@ -133,49 +364,5 @@
       "img/carros/fiorino/5.jpeg",
       "img/carros/fiorino/6.jpeg"
     ]
-  },
-    {
-      "__comment": "Honda Fit Prata",
-      "nome": "Honda Fit",
-      "marca": "Honda",
-      "modelo": "Hatch",
-      "anoFiltro": "2014",
-      "ano": "2013/14",
-      "cor": "Prata",
-      "km": "205.594",
-      "preco": "R$ 49.900",
-      "precoFiltro": "49900",
-      "opcionais": "Completo",
-      "motor": "1.4",
-      "cambio": "Manual",
-      "whatsapp": "61986149857",
-      "imagens": [
-          "img/carros/HondaFit/da65028f-5a09-45b2-a8d0-2cd05744f8a5.jpg",
-          "img/carros/HondaFit/4e83e807-2f29-476d-8211-d580d107e5f0.jpg",
-          "img/carros/HondaFit/1e41fe35-75fb-43e4-aeb8-d1cafd0748bd.jpg",
-          "img/carros/HondaFit/0104a2bc-278b-4f24-a922-e3a308805b78.jpg"
-      ]
-  },
-  {
-      "__comment": "Chevrolet Prisma Branco",
-      "nome": "Prisma",
-      "marca": "Chevrolet",
-      "modelo": "Sedan",
-      "anoFiltro": "2018",
-      "ano": "2018",
-      "cor": "Branco",
-      "km": "120.038",
-      "preco": "R$ 61.900",
-      "precoFiltro": "61900",
-      "opcionais": "Completo",
-      "motor": "1.4",
-      "cambio": "Manual",
-      "whatsapp": "61986149857",
-      "imagens": [
-          "img/carros/prisma/IMG_7947.JPG",
-          "img/carros/prisma/IMG_7948.JPG",
-          "img/carros/prisma/IMG_7949.JPG",
-          "img/carros/prisma/IMG_7950.JPG"
-      ]
   }
 ]

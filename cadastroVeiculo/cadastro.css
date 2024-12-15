@@ -1,0 +1,54 @@
+/* Container para as imagens selecionadas */
+.preview-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para cada imagem */
+.preview-item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo da imagem dentro do preview */
+.preview-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilo do botão de remoção */
+.remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito de hover */
+.remove-btn:hover {
+    background: rgba(255, 0, 0, 1);
+    transform: scale(1.1);
+}
+
+/* Efeito quando o botão é clicado */
+.remove-btn:focus {
+    outline: none;
+}
+
+.remove-btn:active {
+    transform: scale(0.95);
+}

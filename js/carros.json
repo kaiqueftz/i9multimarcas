@@ -1,5 +1,68 @@
 [
   {
+    "__comment": "Gol G6",
+    "marca": "VW",
+    "nome": "Gol G6",
+    "modelo": "Hatch",
+    "anoFiltro": "2012",
+    "ano": "2012/2013",
+    "cor": "Cinza",
+    "km": "272.587",
+    "preco": "R$ 35.900",
+    "precoFiltro": "35900",
+    "opcionais": "Completo",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/golG6Preto/1.jpeg",
+      "img/carros/golG6Preto/2.jpeg",
+      "img/carros/golG6Preto/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Polo MCA 2018/2019",
+    "marca": "VW",
+    "nome": "Polo MCA",
+    "modelo": "Hatch",
+    "anoFiltro": "2018",
+    "ano": "2018/2019",
+    "cor": "Branco",
+    "km": "191.819",
+    "preco": "R$ 59.900",
+    "precoFiltro": "59900",
+    "opcionais": "Completo + multimídia",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/poloMCA/1.jpeg",
+      "img/carros/poloMCA/2.jpeg",
+      "img/carros/poloMCA/3.jpeg"
+    ]
+  },
+  {
+    "__comment": "Polo MCA 2019/2020",
+    "marca": "VW",
+    "nome": "Polo MCA",
+    "modelo": "Hatch",
+    "anoFiltro": "2019",
+    "ano": "2019/2020",
+    "cor": "Branca",
+    "km": "69.198",
+    "preco": "R$ 67.900",
+    "precoFiltro": "67900",
+    "opcionais": "Completo e multimídia",
+    "motor": "1.0",
+    "cambio": "Manual",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/poloMCA_2/1.jpeg",
+      "img/carros/poloMCA_2/2.jpeg",
+      "img/carros/poloMCA_2/3.jpeg"
+    ]
+  },
+  {
     "__comment": "Creta Platinum TGDI",
     "marca": "Hyundai",
     "nome": "Creta Platinum TGDI",

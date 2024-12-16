@@ -1,10 +1,14 @@
+require('dotenv').config();  // Carrega as variáveis do .env
+
 const express = require('express');
 const multer = require('multer');
+const cors = require('cors');
+const bcrypt = require('bcrypt');
 const { createClient } = require('@supabase/supabase-js');
 
 const app = express();
-const supabaseUrl = ''; // Substitua pela URL do seu Supabase
-const supabaseKey = ''; // Substitua pela chave do seu projeto Supabase
+const supabaseUrl = process.env.SUPABASE_URL; // Substitua pela URL do seu Supabase
+const supabaseKey = process.env.SUPABASE_KEY; // Substitua pela chave do seu projeto Supabase
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Configuração do Multer
@@ -20,6 +24,7 @@ async function uploadImageToSupabase(imageBuffer, fileName) {
     return data;
 }
 
+app.use(cors());
 app.use(express.json());
 
 // Rota para criar um veículo
@@ -103,8 +108,65 @@ app.delete('/veiculos/:id', async (req, res) => {
     }
 });
 
-// Inicializando o servidor
+app.post('/registro', async (req, res) => {
+    const { user, senha } = req.body;
+
+    console.log('Dados recebidos:', { user, senha }); // Adiciona log para verificar os dados recebidos
+
+    try {
+        // Hash da senha com bcrypt
+        const hashedPassword = await bcrypt.hash(senha, 10);
+
+        // Inserir o novo usuário no Supabase
+        const { data, error } = await supabase
+            .from('usuarios')
+            .insert([{ user, senha: hashedPassword }]);
+
+        if (error) {
+            console.error('Erro ao registrar o usuário:', error); // Log do erro ao inserir
+            return res.status(400).json({ error: 'Erro ao registrar o usuário' });
+        }
+
+        res.status(201).json({ message: 'Usuário registrado com sucesso', data });
+    } catch (err) {
+        console.error('Erro no servidor:', err); // Log de erro geral
+        res.status(500).json({ error: 'Erro ao registrar o usuário' });
+    }
+});
+
+// Rota de Login
+app.post('/login', async (req, res) => {
+    const { user, senha } = req.body;
+
+    try {
+        // Buscar o usuário pelo nome
+        const { data: usuario, error } = await supabase
+            .from('usuarios')
+            .select('id, senha')
+            .eq('user', user)
+            .single();
+
+        if (error || !usuario) {
+            return res.status(401).json({ error: 'Usuário ou senha inválidos' });
+        }
+
+        // Comparar a senha fornecida com a senha armazenada
+        const senhaCorreta = await bcrypt.compare(senha, usuario.senha);
+
+        if (!senhaCorreta) {
+            return res.status(401).json({ error: 'Usuário ou senha inválidos' });
+        }
+
+        // Login bem-sucedido
+        res.status(200).json({ message: 'Login bem-sucedido', id: usuario.id });
+    } catch (err) {
+        res.status(500).json({ error: 'Erro interno do servidor' });
+    }
+});
+
+// Inicializar o servidor
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
 });
+

@@ -1,7 +1,28 @@
 [
   {
+    "__comment": "Honda City LX",
+    "marca": "Honda",
+    "nome": "Honda City LX",
+    "modelo": "Sedan",
+    "anoFiltro": "2019",
+    "ano": "2019/2019",
+    "cor": "Cinza",
+    "km": "13333",
+    "preco": "R$ 82.900",
+    "precoFiltro": "82900",
+    "opcionais": "Completo",
+    "motor": "1.5",
+    "cambio": "Automático",
+    "whatsapp": "61986149857",
+    "imagens": [
+      "img/carros/honda_city_lx/1.jpeg",
+      "img/carros/honda_city_lx/2.jpeg",
+      "img/carros/honda_city_lx/3.jpeg"
+    ]
+  },
+  {
     "__comment": "Gol G6",
-    "marca": "VW",
+    "marca": "Volkswagen",
     "nome": "Gol G6",
     "modelo": "Hatch",
     "anoFiltro": "2013",
